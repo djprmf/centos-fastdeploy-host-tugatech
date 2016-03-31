@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "Este script irá configurar rapidamente a pós-instalação do CentOS."
+echo "Por favor, aguarde a finalização."
+
 echo "A aplicar motd... Por favor, aguarde."
 wget https://raw.githubusercontent.com/djprmf/centos-change-motd/master/motd
 bash motd
