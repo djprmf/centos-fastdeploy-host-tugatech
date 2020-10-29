@@ -11,4 +11,9 @@ CentOS 7.X
 wget https://raw.githubusercontent.com/djprmf/centos-fastdeploy-host-tugatech/master/centos7 && bash centos7
 ```
 
+CentOS 8.X
+```
+wget https://raw.githubusercontent.com/djprmf/centos-fastdeploy-host-tugatech/master/centos8 && bash centos8
+```
+
 [Host TugaTech](https://host.tugatech.com.pt/)
