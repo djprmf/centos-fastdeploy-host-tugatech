@@ -12,4 +12,6 @@ wget https://raw.githubusercontent.com/djprmf/centos-change-hostname/master/host
 bash hostname7
 
 echo "Tarefas concluidas com sucesso"
-echo "Por favor, reinicie o sistema."
+echo "A reiniciar o sistema."
+cat /dev/null > ~/.bash_history && history -c
+reboot
