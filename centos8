@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+echo "Este script irá configurar rapidamente a pós-instalação do CentOS."
+echo "Por favor, aguarde a finalização."
+
+echo "A aplicar motd... Por favor, aguarde."
+wget https://raw.githubusercontent.com/djprmf/centos-change-motd/master/motd
+bash motd
+
+echo "A aplicar hostname... Por favor, aguarde."
+wget https://raw.githubusercontent.com/djprmf/centos-change-hostname/master/hostname7
+bash hostname7
+
+echo "Tarefas concluidas com sucesso"
+echo "A reiniciar o sistema."
+cat /dev/null > ~/.bash_history && history -c
+reboot
